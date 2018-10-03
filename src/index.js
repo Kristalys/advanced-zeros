@@ -1,7 +1,7 @@
 module.exports = function getZerosCount(number, base) {
   
-  let count, d, c, z = number, i;
-  for ( i = 2; i <= base; i++) {
+  let count, d, c, z = number;
+  for (let i = 2; i <= base; i++) {
     if (base % i == 0) {
       count = 0;
       while (base % i == 0) {
